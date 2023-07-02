@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  margin-bottom: 5vh;
+}
+/**Also just wanted to say if you are viewing this and you noticed how I added the style element in the head section of each question file, it was because the external link was not working for some odd reason./**/
+
+.btn {
+  position: relative;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: bold;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: powderblue;
+}
+
+.next-btn {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  align-content: right;
+  float: right;
+  margin-top: 1.3vh;
+}
+
+.back-btn {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  align-content: left;
+  float: left;
+  margin-top: 2vh;
+}
+
+.parent {
+  height: 230px;
+  background: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  background-color: antiquewhite;
+  width: 550px;
+  height: 100px;
+}
+
+.option {
+  background-color: gray;
+  text-align: center;
+  border: black solid 3px;
+  width: 200px;
+  padding-top: 20%;
+  font-weight: bolder;
+  padding-top: 5%;
+  color: black;
+  font-weight: bold;
+}
+
+.option:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1em;
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+
+h2.section-dark,
+h2.section-light {
+  font-weight: bold;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar-link {
+  padding: 10px 10px 10px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: teal;
+}
+
+nav ul {
+  padding: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-header {
+  text-align: left;
+  margin-left: 2%;
+}
+
+span.welcome-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* iPhone 13 viewport */
+
+@media only screen and (max-width: 390px) {
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+  * {
+    font-family: "Raleway", sans-serif;
+    font-size: small;
+    box-sizing: border-box;
+  }
+
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #main-header {
+    text-align: left;
+    margin-left: 2vw;
+  }
+
+  .navbar li {
+    margin-right: 10rem;
+  }
+
+  #intro-block {
+    padding-top: 3vh;
+    padding-bottom: 2.2vh;
+  }
+
+  span.welcome-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  span.welcome-msg {
+    font-size: 13px;
+  }
+
+  .section-dark {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: rgb(45, 116, 116);
+    color: white;
+  }
+
+  .section-light {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: azure;
+    color: black;
+  }
+
+  .pics {
+    height: 300px;
+    width: 300px;
+  }
+}
